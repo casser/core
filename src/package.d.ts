@@ -79,6 +79,11 @@ declare function encodeURI(uri: string): string;
   */
 declare function encodeURIComponent(uriComponent: string): string;
 
+declare function clearInterval(handle: number): void;
+declare function clearTimeout(handle: number): void;
+declare function setInterval(handler: any, timeout?: any, ...args: any[]): number;
+declare function setTimeout(handler: any, timeout?: any, ...args: any[]): number;
+
 interface PropertyDescriptor {
     configurable?: boolean;
     enumerable?: boolean;
@@ -879,6 +884,7 @@ declare var RegExp: RegExpConstructor;
 interface Error {
     name: string;
     message: string;
+    stack?: string;
 }
 
 interface ErrorConstructor {
@@ -5363,3 +5369,9 @@ interface Console {
 }
 
 declare var console: Console;
+
+
+declare function clearInterval(handle: number): void;
+declare function clearTimeout(handle: number): void;
+declare function setInterval(handler: any, timeout?: any, ...args: any[]): number;
+declare function setTimeout(handler: any, timeout?: any, ...args: any[]): number;

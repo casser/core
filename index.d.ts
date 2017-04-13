@@ -17,7 +17,7 @@ and limitations under the License.
 
 /// <reference no-default-lib="true"/> 
 /// <reference path="./console.d.ts"/>
-
+/// <reference path="./lang.d.ts"/>
 
 
 /////////////////////////////

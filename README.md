@@ -1,2 +1,2 @@
 # core
-Javascript Standard Library Definition
+Typescript Core Library Definition
